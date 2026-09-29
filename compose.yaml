@@ -1,0 +1,12 @@
+services:
+  user-service:
+    build: ./user-service
+    container_name: user-service-container
+    ports:
+      - "12000:12000"
+
+  todo-service:
+    build: ./todo-service
+    container_name: todo-service-container
+    ports:
+      - "12001:12001"
