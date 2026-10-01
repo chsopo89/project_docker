@@ -14,7 +14,8 @@ class User(BaseModel):
 
 users = [
     {"id": 1, "name": "조병현"},
-    {"id": 2, "name": "조형우"}
+    {"id": 2, "name": "조형우"},
+    {"id": 3, "name": "정준재"}
 ]
 
 
